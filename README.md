@@ -5,7 +5,7 @@
 PulseBot is an AI agent that makes Uxento obsolete by automating every manual feature through natural language commands. Zero clicking, zero browser extensions—just pure agent-driven token deployment.
 
 🌐 **Live Site**: [pulsebot.fun](https://pulsebot.fun)  
-🐦 **Twitter/X**: [@pulsebot](https://x.com/pulsebot)
+🐦 **Twitter/X**: [@pulsebotfun](https://x.com/pulsebotfun)
 
 ## Features
 
@@ -24,7 +24,7 @@ iwr -useb https://pulsebot.fun/install.ps1 | iex
 
 Then command via chat:
 ```
-@pulsebot launch this tweet
+@pulsebotfun launch this tweet
 ```
 
 ## Repository Structure
