@@ -2,14 +2,14 @@
 
 /* Import base variables */
 :root {
-    --bg-primary: #f8f9fa;
-    --bg-secondary: #ffffff;
-    --bg-tertiary: #e9ecef;
-    --text-primary: #1a1a1a;
-    --text-secondary: #6c757d;
-    --accent-primary: #2563eb;
-    --accent-hover: #1d4ed8;
-    --border-color: #e5e7eb;
+    --bg-primary: #ffffff;
+    --bg-secondary: #fafafa;
+    --bg-tertiary: #f5f5f5;
+    --text-primary: #000000;
+    --text-secondary: #666666;
+    --accent-primary: #000000;
+    --accent-hover: #333333;
+    --border-color: #e0e0e0;
     --card-bg: #ffffff;
 }
 
@@ -87,7 +87,7 @@ body {
 .search-box:focus-within {
     border-color: var(--accent-primary);
     background-color: var(--bg-secondary);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
 }
 
 .search-box input {
@@ -184,7 +184,7 @@ body {
 
 .sidebar-links a.active {
     color: var(--accent-primary);
-    background-color: rgba(37, 99, 235, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
     font-weight: 600;
 }
 
@@ -289,7 +289,7 @@ body {
 }
 
 .callout-success {
-    background-color: rgba(37, 99, 235, 0.08);
+    background-color: rgba(0, 0, 0, 0.04);
     border-color: var(--accent-primary);
 }
 
@@ -474,7 +474,7 @@ body {
 }
 
 .command-row:hover {
-    background-color: rgba(37, 99, 235, 0.04);
+    background-color: rgba(0, 0, 0, 0.02);
 }
 
 .command-name {
@@ -482,7 +482,7 @@ body {
     font-family: 'Space Mono', 'Courier New', monospace;
     font-weight: 600;
     color: var(--accent-primary);
-    background-color: rgba(37, 99, 235, 0.05);
+    background-color: rgba(0, 0, 0, 0.03);
     border-right: 1px solid var(--border-color);
 }
 
@@ -619,7 +619,7 @@ body {
 .footer-nav-link:hover {
     border-color: var(--accent-primary);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .footer-nav-label {
