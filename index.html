@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseBot - AI Agent That Automates Uxento</title>
+    <meta name="description" content="The AI agent that makes Uxento obsolete. Automated Quick Deploy from tweets, instant Vamp mode, multi-agent launches. Zero clicking, zero extensions.">
+    <meta property="og:title" content="PulseBot - Uxento Automation Agent">
+    <meta property="og:description" content="Why click when you can command? PulseBot automates every Uxento feature through natural language. Tweet-to-token in milliseconds.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pulsebot.fun">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pulsebot">
+    <link rel="icon" type="image/png" href="p_small.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- CA Banner -->
+    <div class="ca-banner">
+        <span class="ca-label">CA:</span>
+        <span class="ca-text">coming soon</span>
+        <button class="ca-copy" onclick="copyCa()" aria-label="Copy contract address">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="P_large.png" alt="PulseBot" class="logo-icon" width="50">
+            </a>
+            <div class="nav-links">
+                <a href="#features">Why PulseBot</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#faq">FAQ</a>
+                <a href="docs/index.html" class="btn-primary">Documentation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-badge">
+            Uxento Quick Deploy, but automated by AI
+        </div>
+        <div class="hero-icon">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="20" y="25" width="60" height="50" rx="6" fill="#f0f4ff" stroke="#2563eb" stroke-width="2.5"/>
+                <circle cx="50" cy="50" r="16" fill="#2563eb"/>
+                <path d="M44 50L48 54L56 46" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="30" y="15" width="40" height="4" rx="2" fill="#2563eb"/>
+                <circle cx="35" cy="17" r="1.5" fill="#60a5fa"/>
+                <circle cx="65" cy="17" r="1.5" fill="#60a5fa"/>
+            </svg>
+        </div>
+        <h1 class="hero-title">
+            Stop Clicking. Start Commanding.<br>
+            <span class="highlight">PulseBot Automates Uxento</span>
+        </h1>
+        <p class="hero-subtitle">
+            Every Uxento feature you manually click through, PulseBot executes via natural language. Tweet monitoring, auto-vamp, cross-platform launches—all automated.
+        </p>
+        <div class="hero-buttons">
+            <a href="docs/index.html" class="btn-primary btn-large">Documentation</a>
+            <a href="https://x.com/pulsebot" target="_blank" class="btn-secondary btn-large">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.480 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                </svg>
+                Follow on X
+            </a>
+        </div>
+    </section>
+
+    <!-- Quick Start Section -->
+    <section class="quick-start">
+        <div class="quick-start-container">
+            <h2 class="quick-start-title">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                    <polyline points="4 17 10 11 4 5"></polyline>
+                    <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+                Quick Start
+            </h2>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-tab active">One-liner</span>
+                    <span class="terminal-tab">X / Twitter</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-comment"># No browser. No extensions. Pure agent automation. 🚀</div>
+                    <div class="terminal-command">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-text">iwr -useb https://pulsebot.fun/install.ps1 | iex</span>
+                        <button class="copy-button" onclick="copyToClipboard('start trading')">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p class="quick-start-description">
+                Then command via chat: "@pulsebot launch this tweet" → Done. No GUI required.
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2 class="section-title">Complete Launchpad <span class="highlight">Automation Suite</span></h2>
+        <p class="section-subtitle">
+            Full-stack token deployment infrastructure. From launch to liquidity management.
+        </p>
+
+        <!-- Why PulseBot beats Uxento -->
+        <div class="competitive-edge">
+            <h3 class="competitive-title">Every Uxento Feature, Fully Automated</h3>
+            <div class="competitive-grid">
+                <div class="competitive-item">
+                    <div class="competitive-badge">Auto Quick Deploy</div>
+                    <p>Uxento: Highlight tweet text → Click Quick Deploy button → Configure amount. PulseBot: "@pulsebot deploy this thread 0.1 SOL" → Done.</p>
+                </div>
+                <div class="competitive-item">
+                    <div class="competitive-badge">Instant Vamp</div>
+                    <p>Uxento: Click Vamp button → Paste CA → Click Create. PulseBot: "vamp [CA]" in any chat interface. No GUI, no clicking.</p>
+                </div>
+                <div class="competitive-item">
+                    <div class="competitive-badge">Automated Cross-Deploy</div>
+                    <p>Uxento's multi-deploy requires configuring each platform manually. PulseBot: "launch on pump, bonk, and bags" executes all simultaneously.</p>
+                </div>
+                <div class="competitive-item">
+                    <div class="competitive-badge">No Browser Required</div>
+                    <p>Uxento needs Chrome extension + trading platform GUI. PulseBot runs headless—command from Discord, Telegram, CLI, anywhere agents operate.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Tweet Intelligence</h3>
+                <p class="feature-description">
+                    Monitors X in real-time for deployment triggers. Extracts metadata, analyzes context, launches tokens—all from natural language commands. Uxento's Quick Deploy, automated.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                        <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                        <line x1="2" y1="10" x2="22" y2="10"></line>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Auto-Vamp</h3>
+                <p class="feature-description">
+                    Clone any token by contract address instantly. No Vamp button clicking, no form filling. "vamp [CA]" executes full deployment with translated metadata.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Cross-Platform Deploy</h3>
+                <p class="feature-description">
+                    Launch simultaneously on Pump.fun, Bonk, BagsApp, FourMeme. Uxento's multi-deploy GUI automated through single agent command.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                    </svg>
+                </div>
+                <h3 class="feature-title">Automated Rewards</h3>
+                <p class="feature-description">
+                    Auto-claims creator fees when thresholds hit. Monitors all launchpad deployments, batch claims across platforms. Uxento's manual fee panel, fully automated.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <h2 class="section-title">Agent <span class="highlight">Workflow</span></h2>
+        <p class="section-subtitle">
+            Command → Parse → Execute. No browser tabs, no clicking, no manual configuration.
+        </p>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">01</div>
+                <div class="step-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                        <polyline points="4 17 10 11 4 5"></polyline>
+                        <line x1="12" y1="19" x2="20" y2="19"></line>
+                    </svg>
+                </div>
+                <h3 class="step-title">Natural Language Command</h3>
+                <p class="step-description">
+                    "@pulsebot launch this tweet" or "vamp [CA] on bonk". Agent parses intent, extracts parameters from context. No forms, no GUI configuration.
+                </p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">02</div>
+                <div class="step-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                </div>
+                <h3 class="step-title">Intelligent Metadata Generation</h3>
+                <p class="step-description">
+                    AI analyzes tweet content, generates token name/ticker, creates visuals, populates metadata. Uxento's manual form filling, fully automated.
+                </p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">03</div>
+                <div class="step-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <h3 class="step-title">Autonomous Execution</h3>
+                <p class="step-description">
+                    Broadcasts to Solana, monitors bonding curve, auto-claims rewards. Multi-platform deployment if specified. Zero human intervention post-command.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2 class="section-title">Common <span class="highlight">Questions</span></h2>
+        <p class="section-subtitle">
+            Understanding agent automation vs. manual Uxento workflows.
+        </p>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>How does PulseBot replace Uxento's Quick Deploy?</span>
+                    <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>Uxento requires you to highlight tweet text and click Quick Deploy. PulseBot monitors X automatically—command "@pulsebot launch this" and it extracts metadata, generates assets, and deploys without browser interaction.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Can PulseBot vamp tokens like Uxento?</span>
+                    <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, but automated. Instead of clicking Vamp button → pasting CA → configuring fields, just type "vamp [contract_address]" in any chat. PulseBot fetches metadata, translates if needed, and deploys.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Does PulseBot support multi-platform deployment?</span>
+                    <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>Fully. "launch on pump, bonk, and bags" executes cross-platform deployment simultaneously. No clicking through Uxento's platform selector GUI—just natural language specification.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Do I need browser extensions like Uxento's uxtension?</span>
+                    <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>No. PulseBot is headless—runs from CLI, Discord, Telegram, any environment your agent operates in. No Chrome extension, no trading platform GUI required. Pure API-driven execution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="/" class="footer-brand">
+                <img src="P_large.png" alt="PulseBot" class="footer-logo" width="100">
+            </a>
+            <p class="footer-copyright">2026 PulseBot. Automate Everything.</p>
+            <a href="https://x.com/pulsebot" class="footer-social" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                </svg>
+                @pulsebot
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
